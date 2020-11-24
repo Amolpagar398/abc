@@ -1,0 +1,27 @@
+import React, { Component } from 'react';
+import { View, Image, StyleSheet} from 'react-native';
+
+export default class App extends Component {
+  
+ render() {
+    return (
+      <View style={styles.container} >
+        
+         <Image source={require('./images/FitstepLogo.png')}
+        
+        />
+        
+      </View>
+    );
+  }
+}/home/amolp/task/imgs/Fitstep Logo (1).png
+const styles = StyleSheet.create({
+  container: {
+     flex: 1,
+     height:"30",
+     width:30,
+
+ 
+  },
+})
+
